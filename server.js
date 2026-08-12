@@ -70,4 +70,6 @@ const server = http.createServer((req, res) => {
   if (req.method === 'POST' && url.pathname === '/api/reset') { const fresh = seed(); save(fresh); return send(res, 200, fresh); }
   send(res, 404, { error: 'Not found' });
 });
-server.listen(PORT, () => console.log(`Voice Passport running at http://localhost:${PORT}`));
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`Voice Passport running on port ${PORT}`);
+});

@@ -53,8 +53,8 @@
       "duration": 90,
       "model_training": false,
       "resale": false,
-      "status": "APPROVED",
-      "created_at": "2026-08-12T18:36:23.355Z"
+      "status": "PENDING",
+      "created_at": "2026-08-12T19:28:45.008Z"
     },
     {
       "id": "REQ-AD-2051",
@@ -66,31 +66,9 @@
       "model_training": false,
       "resale": false,
       "status": "PENDING",
-      "created_at": "2026-08-12T17:36:23.355Z"
+      "created_at": "2026-08-12T18:28:45.008Z"
     }
   ],
-  "authorizations": [
-    {
-      "id": "AUTH-0844B11E",
-      "request_id": "REQ-GAME-2048",
-      "voice_id": "VOICE-001",
-      "requester": "GameStudio AI",
-      "purpose": "Game character dialogue",
-      "scope": "Synthetic voice generation",
-      "expires_at": "2026-11-10T18:48:31.617Z",
-      "status": "ACTIVE",
-      "created_at": "2026-08-12T18:48:31.617Z",
-      "revoked_at": null
-    }
-  ],
-  "receipts": [
-    {
-      "id": "VPR-2026-E28829E7",
-      "request_id": "REQ-GAME-2048",
-      "authorization_id": "AUTH-0844B11E",
-      "decision": "APPROVED",
-      "reason": "Purpose is permitted under this Voice Passport.",
-      "timestamp": "2026-08-12T18:48:31.626Z"
-    }
-  ]
+  "authorizations": [],
+  "receipts": []
 }
